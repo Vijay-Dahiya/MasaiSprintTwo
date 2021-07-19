@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+
+
+    <EditText
+        android:id="@+id/EmailScreen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/dp_39"
+        android:hint="@string/enter_your_email_id"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/IdScreen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_39"
+        android:layout_marginTop="@dimen/dp_39"
+        android:hint="@string/enter_your_password"
+        android:inputType="numberPassword"
+
+        android:layout_below="@+id/EmailScreen1"
+        />
+    <CheckBox
+        android:id="@+id/checkboxEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IdScreen1"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/dp_39"
+        android:text="@string/remember_me"
+        android:layout_marginTop="@dimen/dp_20"
+        />
+    <TextView
+        android:id="@+id/LoginScreen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+
+        android:textSize="@dimen/sp_20"
+        android:paddingVertical="@dimen/dp_20"
+        android:paddingHorizontal="@dimen/dp_39"
+        android:layout_marginTop="@dimen/dp_39"
+        android:textColor="@android:color/holo_blue_bright"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/checkboxEmail"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

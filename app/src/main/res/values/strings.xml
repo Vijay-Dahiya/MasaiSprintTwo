@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MasaiSprintTwo</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="enter_your_email_id">Enter your email id</string>
+    <string name="enter_your_password">Enter your password</string>
+</resources>
